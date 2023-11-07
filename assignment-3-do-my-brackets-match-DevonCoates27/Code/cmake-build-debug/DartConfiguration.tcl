@@ -4,14 +4,14 @@
 
 
 # Configuration directories and files
-SourceDirectory: /Users/devoncoates/Documents/GitHub/assignment-3-do-my-brackets-match-DevonCoates27
-BuildDirectory: /Users/devoncoates/Documents/GitHub/assignment-3-do-my-brackets-match-DevonCoates27/cmake-build-debug
+SourceDirectory: /Users/devoncoates/Documents/GitHub/Code-Bracket-Debugger/assignment-3-do-my-brackets-match-DevonCoates27/Code
+BuildDirectory: /Users/devoncoates/Documents/GitHub/Code-Bracket-Debugger/assignment-3-do-my-brackets-match-DevonCoates27/Code/cmake-build-debug
 
 # Where to place the cost data store
 CostDataFile: 
 
 # Site is something like machine.domain, i.e. pragmatic.crd
-Site: Devons-MacBook-Pro.local
+Site: Devons-MacBook-Pro-2.local
 
 # Build name is osname-revision-compiler, i.e. Linux-2.4.2-2smp-c++
 BuildName: Darwin-c++
@@ -26,7 +26,7 @@ SubmitURL: http://
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake" "/Users/devoncoates/Documents/GitHub/assignment-3-do-my-brackets-match-DevonCoates27"
+ConfigureCommand: "/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake" "/Users/devoncoates/Documents/GitHub/Code-Bracket-Debugger/assignment-3-do-my-brackets-match-DevonCoates27/Code"
 MakeCommand: /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}"
 DefaultCTestConfigurationType: Release
 
@@ -44,7 +44,7 @@ SVNOptions:
 SVNUpdateOptions: 
 
 # Git options
-GITCommand: /usr/bin/git
+GITCommand: 
 GITInitSubmodules: 
 GITUpdateOptions: 
 GITUpdateCustom: 
@@ -57,13 +57,13 @@ P4UpdateOptions:
 P4UpdateCustom: 
 
 # Generic update command
-UpdateCommand: /usr/bin/git
+UpdateCommand: 
 UpdateOptions: 
-UpdateType: git
+UpdateType: 
 
 # Compiler info
 Compiler: /Library/Developer/CommandLineTools/usr/bin/c++
-CompilerVersion: 12.0.5.12050022
+CompilerVersion: 14.0.3.14030022
 
 # Dynamic analysis (MemCheck)
 PurifyCommand: 

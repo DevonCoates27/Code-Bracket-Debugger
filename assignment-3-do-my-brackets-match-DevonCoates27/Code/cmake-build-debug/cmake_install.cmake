@@ -1,4 +1,4 @@
-# Install script for directory: /Users/devoncoates/Documents/GitHub/assignment-3-do-my-brackets-match-DevonCoates27
+# Install script for directory: /Users/devoncoates/Documents/GitHub/Code-Bracket-Debugger/assignment-3-do-my-brackets-match-DevonCoates27/Code
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/devoncoates/Documents/GitHub/assignment-3-do-my-brackets-match-DevonCoates27/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/devoncoates/Documents/GitHub/Code-Bracket-Debugger/assignment-3-do-my-brackets-match-DevonCoates27/Code/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
