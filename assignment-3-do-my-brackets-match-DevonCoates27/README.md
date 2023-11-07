@@ -1,3 +1,8 @@
+## My Report:
+
+This project was a required assignment in my Data Structures of class that asked us to parse a file and check to see if it had any errores in regard to brackets, paretheses, or curly braces. I would push them to a self-made stack when I saw an open character and then remove them if I saw a matching closing character. The details about the assignment are below. I received an A on this assignment.
+
+
 # Assignment: Do My Brackets Match?
 
 **Objectives:**
